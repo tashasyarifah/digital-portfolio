@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+button {
+    background-color: transparent;
+    width: 2em;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0.1em solid black;
+}
+
+#menu-btn {
+    background-color: $light-pink-color;
+}
