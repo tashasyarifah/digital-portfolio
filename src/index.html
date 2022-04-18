@@ -4,20 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Tasha's Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
-            <h1>Home</h1>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="project.html">Project</a></li>
-            </ul>
+            <h1>
+                <i class="fa-solid fa-house" alt="HomePage button"></i>Home
+            </h1>
+            <div id="mobile-button">
+                <button id="menu-btn">
+                    <i class="fa-solid fa-bars" aria-label="Menu button"></i>
+                </button>
+            </div>
+
+            
         </nav>
     </header>
+
+    <div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="project.html">Project</a></li>
+        </ul>
+    </div>
+    
+
+    <script src="app.js"></script>
 </body>
 </body>
 </html>
