@@ -1,14 +1,29 @@
 @use '../abstracts' as *;
 
+// General button
 button {
-    background-color: transparent;
-    width: 2em;
+    background-color: $light-pink-color;
     display: inline-block;
     cursor: pointer;
     outline: none;
     border: 0.1em solid black;
 }
 
-#menu-btn {
-    background-color: $light-pink-color;
+// Button for mobile
+.mobile__btn {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1.5rem;
+    border: none;
+    outline: none;
+
+    &--bar {
+        display: inline-block;
+        width: 1.5rem;
+        height: 2px;
+        background-color: black;
+        transition: all 0.5s;
+    }
 }
