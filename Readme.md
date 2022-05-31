@@ -18,3 +18,13 @@ In this week, I try to adjust myself with new Sass rules. My option using `npm s
 - [Youtube video](https://www.youtube.com/watch?v=dOnYNEXv9BM&t=124s) by coder coder on how to use `@use` and `@forward`
 
 I haven't touch the JavaScript yet. My main focus this week is get to know the styles before comes down to the JavaScript.
+
+**April 19 - May 31, 2022**
+
+It's been a long time since I touch my portfolio. I'll explain why it took me long.
+
+First, I have a problem to connect my JavaScript. For some reason it didn't attach with the file. I'm looking the answers on StackOverflow but it hadn't solved yet. I was stuck. Right now, I'm attempted to try other solution. I don't want to affect the master, so I'll be experimenting with new branch.
+
+Second, it affects me as a developer. There is a moment where I just want to quit. That's why I took a break. Trying to remind myself about all of the process that I've been through. Small wins or anything that encourage me to keep going. Tech twitter also part of it. Learning that everyone have their own pace and time. Embrace it! I learn on how to embracing the process of me learning. Yeah, it's good thing to know how far I've become 🤗
+
+Now, I'm back.
